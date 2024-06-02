@@ -115,7 +115,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-
+CSRF_TRUSTED_ORIGINS = ['https://8000-mattthughes-resttt-pdhlhk9is6v.ws-eu114.gitpod.io', 'https://*.127.0.0.1']
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
